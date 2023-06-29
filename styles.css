@@ -1,0 +1,264 @@
+body {
+    margin: 0px;
+}
+
+.login,
+.login * {
+  box-sizing: border-box;
+}
+.login {
+  background: #ffffff;
+  height: 1024px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.side-frame {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 825px;
+  height: 1024px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  display: grid;
+}
+
+.musika-logo {
+  flex-shrink: 0;
+  width: 224px;
+  height: 82px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.side-title {
+  color: #ffffff;
+  text-align: left;
+  font: 700 48px "Roboto", sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.side-message {
+  color: #ffffff;
+  text-align: left;
+  font: 400 32px "Arial", sans-serif;
+  position: absolute;
+  left: 50px;
+  bottom: 396px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login-frame {
+  background: #241414;
+  padding: 112px 42px 112px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  height: 1024px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.login-bg {
+  background: #3e2926;
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 544px;
+  height: 700px;
+  position: relative;
+}
+.ainda-n-o-possui-uma-conta {
+  color: #9a9494;
+  text-align: left;
+  font: 700 32px "Arial", sans-serif;
+  position: relative;
+  width: 456px;
+  height: 10px;
+}
+.login-message {
+  color: #c67575;
+  text-align: left;
+  font: 400 40px "Georama", sans-serif;
+  position: absolute;
+  left: calc(50% - 173px);
+  top: 220px;
+}
+.login-title {
+  color: #ffffff;
+  text-align: left;
+  font: 600 64px "Georama", sans-serif;
+  position: absolute;
+  left: calc(50% - 195px);
+  top: 130px;
+}
+.email-frame {
+  background: #140a0a;
+  border-radius: 20px;
+  padding: 1px 16px 1px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 242.5px);
+  top: calc(50% - 211px);
+  overflow: hidden;
+  transform: scale(1);
+  transition: all .4s ease-in-out;
+}
+
+.email-frame:hover {
+  transform: scale(.98);
+  transition: all .4s ease-in-out;
+}
+
+.mail-img {
+  flex-shrink: 0;
+  width: 55px;
+  height: 72px;
+  position: relative;
+}
+.email-box {
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-align: left;
+  font: 400 32px "Arial", sans-serif;
+  position: relative;
+  width: 377px;
+  height: 35px;
+}
+.password-frame {
+  background: #140a0a;
+  border-radius: 20px;
+  padding: 1px 16px 1px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 242.5px);
+  top: calc(50% - 91px);
+  overflow: hidden;
+  transform: scale(1);
+  transition: all .4s ease-in-out;
+}
+
+.password-frame:hover {
+  transform: scale(.98);
+  transition: all .4s ease-in-out;
+}
+
+.password-img {
+  flex-shrink: 0;
+  width: 55px;
+  height: 72px;
+  position: relative;
+}
+
+.password-box {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  outline: 0px;
+  text-align: left;
+  font: 400 32px "Arial", sans-serif;
+  position: relative;
+  width: 377px;
+  height: 35px;
+}
+
+.sign-in-frame {
+  background: #874e45;
+  border-radius: 20px;
+  padding: 17px 30px 17px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 100.5px);
+  top: 610px;
+  overflow: hidden;
+  transition: all .6s ease-in-out;
+}
+.signin-text {
+  color: #ffffff;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  font: 700 48px "Nunito", sans-serif;
+  position: relative;
+  text-decoration: none;
+}
+.forgot-password-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 24px "Nunito", sans-serif;
+  position: absolute;
+  left: 321px;
+  top: 508px;
+  cursor: pointer;
+}
+.signup-text {
+  color: #c67575;
+  text-align: left;
+  font: 700 32px "Nunito", sans-serif;
+  position: relative;
+}
+
+.sign-in-frame:hover {
+  transition: all .6s ease-in-out;
+  background: #a6574c;
+}
+
+.signup-text:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .side-frame {
+        display: none;
+    }
+
+    .login-frame {
+      position: relative;
+    }
+
+    .login {
+      padding: 0;
+    }
+
+    .forgot-password-text {
+      position: relative;
+      left: 125px;
+      top: -350px;
+    }
+}
